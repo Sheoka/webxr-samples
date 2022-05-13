@@ -1,0 +1,187 @@
+{
+    "asset" : {
+        "generator" : "Khronos glTF Blender I/O v1.6.16",
+        "version" : "2.0"
+    },
+    "scene" : 0,
+    "scenes" : [
+        {
+            "name" : "Scene",
+            "nodes" : [
+                0
+            ]
+        }
+    ],
+    "nodes" : [
+        {
+            "mesh" : 0,
+            "name" : "\u0421\u0430\u0431\u043b\u044f",
+            "rotation" : [
+                0,
+                0,
+                -0.04978693649172783,
+                0.9987598657608032
+            ],
+            "scale" : [
+                0.10847008973360062,
+                0.5062342882156372,
+                0.10847008973360062
+            ]
+        }
+    ],
+    "materials" : [
+        {
+            "doubleSided" : true,
+            "name" : "\u0417\u043e\u043b\u043e\u0442\u043e",
+            "pbrMetallicRoughness" : {}
+        },
+        {
+            "doubleSided" : true,
+            "name" : "\u041b\u0435\u0437\u0432\u0438\u0435",
+            "pbrMetallicRoughness" : {}
+        }
+    ],
+    "meshes" : [
+        {
+            "name" : "Cylinder.231",
+            "primitives" : [
+                {
+                    "attributes" : {
+                        "POSITION" : 0,
+                        "NORMAL" : 1,
+                        "TEXCOORD_0" : 2
+                    },
+                    "indices" : 3,
+                    "material" : 0
+                },
+                {
+                    "attributes" : {
+                        "POSITION" : 4,
+                        "NORMAL" : 5,
+                        "TEXCOORD_0" : 6
+                    },
+                    "indices" : 7,
+                    "material" : 1
+                }
+            ]
+        }
+    ],
+    "accessors" : [
+        {
+            "bufferView" : 0,
+            "componentType" : 5126,
+            "count" : 34444,
+            "max" : [
+                1.5673887729644775,
+                3.9757981300354004,
+                4.793895721435547
+            ],
+            "min" : [
+                -1.5673887729644775,
+                -1.0514873266220093,
+                -3.632483720779419
+            ],
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 1,
+            "componentType" : 5126,
+            "count" : 34444,
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 2,
+            "componentType" : 5126,
+            "count" : 34444,
+            "type" : "VEC2"
+        },
+        {
+            "bufferView" : 3,
+            "componentType" : 5123,
+            "count" : 57240,
+            "type" : "SCALAR"
+        },
+        {
+            "bufferView" : 4,
+            "componentType" : 5126,
+            "count" : 6186,
+            "max" : [
+                0.18246914446353912,
+                10.022842407226562,
+                1.756821870803833
+            ],
+            "min" : [
+                -0.3478546142578125,
+                1.1327333450317383,
+                -7.886562347412109
+            ],
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 5,
+            "componentType" : 5126,
+            "count" : 6186,
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 6,
+            "componentType" : 5126,
+            "count" : 6186,
+            "type" : "VEC2"
+        },
+        {
+            "bufferView" : 7,
+            "componentType" : 5123,
+            "count" : 17958,
+            "type" : "SCALAR"
+        }
+    ],
+    "bufferViews" : [
+        {
+            "buffer" : 0,
+            "byteLength" : 413328,
+            "byteOffset" : 0
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 413328,
+            "byteOffset" : 413328
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 275552,
+            "byteOffset" : 826656
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 114480,
+            "byteOffset" : 1102208
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 74232,
+            "byteOffset" : 1216688
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 74232,
+            "byteOffset" : 1290920
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 49488,
+            "byteOffset" : 1365152
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 35916,
+            "byteOffset" : 1414640
+        }
+    ],
+    "buffers" : [
+        {
+            "byteLength" : 1450556,
+            "uri" : "sword.bin"
+        }
+    ]
+}
